@@ -1,0 +1,31 @@
+.feed {
+  flex: 0.5;
+  border-right: 0.1px solid var(--twitter-color);
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+
+/* For hiding scrolbar */
+
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.feed_header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 0.1px solid var(--twitter-color);
+}
+
+.feed_header > h2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
