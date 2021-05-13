@@ -1,0 +1,21 @@
+:root {
+  --twitter-color: whitesmoke;
+  --twitter-background: rgb(112, 34, 60);
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar_assert {
+  background-color: var(--twitter-background) !important;
+  color: var(--twitter-color) !important;
+  border: none !important;
+  font-weight: 900 !important;
+  border-radius: 30px !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}

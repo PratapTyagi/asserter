@@ -5,10 +5,10 @@ import SignInSignUp from "./components/signin-signup/SignInSignUp";
 const App = () => {
   return (
     <div className="app">
-      <h1>Asserter</h1>
+      {/* <h1>Asserter</h1> */}
       <Sidebar />
-      <Feed />
-      <SignInSignUp />
+      {/* <Feed />
+      <SignInSignUp /> */}
     </div>
   );
 };
