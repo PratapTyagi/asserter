@@ -9,7 +9,7 @@ const App = () => {
       {/* <h1>Asserter</h1> */}
       <Sidebar />
       <Feed />
-      {/* <SignInSignUp /> */}
+      <SignInSignUp />
     </div>
   );
 };
