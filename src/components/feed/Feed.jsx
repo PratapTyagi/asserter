@@ -10,9 +10,11 @@ const Feed = () => {
   const [posts, setposts] = useState([]);
 
   useEffect(() => {
-    db.collection("posts").onSnapshot((snapshot) =>
-      setposts(snapshot.docs.map((doc) => ({ id: doc.id, data: doc.data() })))
-    );
+    db.collection("posts")
+      .orderBy("timestamp", "desc")
+      .onSnapshot((snapshot) =>
+        setposts(snapshot.docs.map((doc) => ({ id: doc.id, data: doc.data() })))
+      );
   }, [posts]);
 
   return (
