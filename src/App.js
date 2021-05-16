@@ -7,9 +7,9 @@ const App = () => {
   return (
     <div className="app">
       {/* <h1>Asserter</h1> */}
-      <Sidebar />
-      <Feed />
-      <SignInSignUp />
+      <Sidebar className="app__sidebar" />
+      <Feed className="app__feed" />
+      <SignInSignUp className="app__auth" />
     </div>
   );
 };

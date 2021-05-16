@@ -23,8 +23,11 @@ const Sidebar = () => {
       <SidebarOption text="Lists" Icon={List} />
       <SidebarOption text="Profile" Icon={Person} />
 
-      <Button varient="contained" className="sidebar_assert" fullWidth>
+      <Button varient="contained" className="sidebar_assert1" fullWidth>
         Assert
+      </Button>
+      <Button varient="contained" className="sidebar_assert2" fullWidth>
+        +
       </Button>
     </div>
   );
