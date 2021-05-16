@@ -1,7 +1,6 @@
 .feed {
   flex: 0.5;
   border-right: 0.1px solid var(--twitter-color);
-  min-width: fit-content;
   overflow-y: scroll;
 }
 
@@ -28,4 +27,11 @@
   display: flex;
   justify-content: center;
   margin: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .feed {
+    flex: 1;
+    margin-right: 0;
+  }
 }

@@ -29,3 +29,9 @@
 .sidebarOption--active:hover {
   color: var(--twitter-color);
 }
+
+@media screen and (max-width: 700px) {
+  .sidebarOption > h2 {
+    display: none;
+  }
+}
